@@ -1,0 +1,45 @@
+.educational-paths h2 {
+    position: relative;
+    margin-bottom: 80px;
+}
+
+.educational-paths h2::before, 
+.educational-paths h2::after {
+    content: '';
+    position: absolute;
+    display: block;
+    right: 0;
+    height: 4px;
+    background-color: #c6c6c6;
+}
+
+.educational-paths h2::before {
+    width: 40px;
+    bottom: -30px;
+}
+
+.educational-paths h2::after {
+    width: 80px;
+    bottom: -42px;
+}
+
+.educational-paths .item .img-content {
+    border: 10px solid #ddd;
+    overflow: hidden;
+}
+.educational-paths .item img {
+    display: block !important;
+    transition: all 0.5s;
+}
+
+.educational-paths .item:hover img {
+    transform: scale(1.2) rotate(5deg);
+    
+}
+
+.educational-paths .item:hover h3  {
+    color: #333 !important;
+    transition: all 0.3s;
+    
+}
+

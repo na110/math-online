@@ -1,0 +1,15 @@
+.note-box {
+  transition: all 0.5s;
+}
+
+.note-box:hover {
+  transform: scale(1.1);
+}
+
+.note-box i {
+  font-size: 120px;
+}
+
+.note-box h2 {
+  font-size: 60px;
+}
